@@ -2,7 +2,7 @@
 
 ## Informação do aluno
 
-    Nome: ...
+    Nome: Lucas Fernandes de Araújo
 
 Teste termina às 13:25.
 
@@ -18,7 +18,7 @@ Não desformates o documento.
 
 P1 - Resposta
 
-    ...
+    0, Isso ocorre quando você tenta adicionar um valor que ultrapassa o máximo representável.
 
 ### P2. Considera o seguinte código com um *bug*
 
@@ -30,7 +30,9 @@ P1 - Resposta
 
 P2 - Resposta
 
-    ...
+    float f = (float)double.MaxValue;
+
+    Console.WriteLine(f); 
 
 ### P3. Escreve um programa que solicite ao utilizador dois números reais e apresente o resultado do segundo (base) elevado ao primeiro (expoente). Não podes usar um método da classe Math para obter o resultado
 
@@ -42,4 +44,5 @@ P3 - Resposta
 
 P4 - Resposta
 
-    ...
+    git commit -m "Atualização do Perks" 
+    git push origin main 
